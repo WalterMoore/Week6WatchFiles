@@ -19,7 +19,8 @@
 		"build": "npm run less && npm run typescript",
 		"watch:less": "nodemon -w . -e less -x npm run less",
 		"watch:typescript": "nodemon -w . -e ts -x npm run typescript",
-		"watch": "npm run watch:less & npm run watch:typescript",
+		"watch:browserify": "nodemon -w . -e js -i dist/app.js -x npm run browserify",
+		"watch": "npm run watch:less & npm run watch:typescript & npm run watch:browserify",
 		"browserify": "browserify main.js > dist/app.js"
 	}
 }

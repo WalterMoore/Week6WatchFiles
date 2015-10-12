@@ -2,7 +2,7 @@ var MyClass = (function () {
     function MyClass() {
         this.name = "Matt";
         this.lastName = "Landers";
-        this.middleInitial = "k";
+        this.middleInitial = "n";
     }
     MyClass.prototype.getName = function () {
         return this.name;

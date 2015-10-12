@@ -9,7 +9,7 @@ class MyClass implements IMy{
 		return this.name;
 	}
 	lastName= "Landers";
-	middleInitial = "a";
+	middleInitial = "n";
 }
 var c = new MyClass();
 console.log(c.getName());

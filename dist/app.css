@@ -1,0 +1,9 @@
+body .mclass {
+  background-color: blue;
+}
+body .mclass p {
+  color: orange;
+}
+body .mclass span {
+  float: left;
+}
